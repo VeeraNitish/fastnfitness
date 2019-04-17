@@ -50,14 +50,15 @@ public class MainIntroActivity extends IntroActivity {
 
         addSlide(new SimpleSlide.Builder()
                 .title(R.string.introSlide1Title)
-                .description(R.string.introSlide1Text)
+                //.description(R.string.introSlide1Text)
+                .description("Welcome to Body Planner")
                 .image(R.drawable.web_hi_res_512)
                 .background(R.color.launcher_background)
                 .backgroundDark(R.color.background_even)
                 .scrollable(scrollable)
                 .build());
 
-        addSlide(new SimpleSlide.Builder()
+        /*addSlide(new SimpleSlide.Builder()
                 .title(R.string.introSlide2Title)
                 .description(R.string.introSlide2Text)
                 .image(R.drawable.bench_hi_res_512)
@@ -73,8 +74,9 @@ public class MainIntroActivity extends IntroActivity {
                 .background(R.color.background_even)
                 .backgroundDark(R.color.background_odd)
                 .scrollable(scrollable)
-                .build());
+                .build());*/
 
+        /*
         addSlide(new SimpleSlide.Builder()
                 .title(R.string.titleSlideOpenSource)
                 .description(R.string.textSlideOpenSource)
@@ -83,7 +85,7 @@ public class MainIntroActivity extends IntroActivity {
                 .backgroundDark(R.color.background_odd)
                 .scrollable(scrollable)
                 .build());
-
+           */
         /*final Slide permissionsSlide;
         if (permissions) {
             permissionsSlide = new SimpleSlide.Builder()

@@ -39,15 +39,18 @@ public class AboutFragment extends Fragment {
     private TextView mpAndroidImageCropper = null;
     private TextView mpMaterialFavoriteButton = null;
 
+
 	/**
      * Create a new instance of DetailsFragment, initialized to
      * show the text at 'index'.
      */
     public static AboutFragment newInstance(String name, int id) {
     	AboutFragment f = new AboutFragment();
+		return f;
+
 
         // Supply index input as an argument.
-        Bundle args = new Bundle();
+        /*Bundle args = new Bundle();
         args.putString("name", name);
         args.putInt("id", id);
         f.setArguments(args);
@@ -218,7 +221,8 @@ public class AboutFragment extends Fragment {
 					.setNotices(notice)
 					.build()
 					.show();
-		}
+		}*/
+
 	};
 
 }
